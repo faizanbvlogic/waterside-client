@@ -1,0 +1,237 @@
+@media (max-width: 480px) {
+    .mobile-view {
+        width: 100%;
+    }
+
+    .card-inner {
+        width: 100%;
+        padding: 7px;
+    }
+
+    .create-partner-text {
+        margin-bottom: 9px;
+    }
+}
+
+@media (min-width:481px) and (max-width:1023px) {
+    .card-inner {
+        padding: 19px;
+        width: 50% !important;
+        position: relative;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-inner {
+        padding: 19px;
+        width: 30% !important;
+        position: relative;
+        min-height: 135px;
+
+    }
+
+    .edit-checkbox {
+        width: 15% !important;
+    }
+
+    .edit-dates {
+        width: 20% !important;
+
+    }
+
+    .editrates {
+        width: 16% !important;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1400px) {
+    .col-xxl-6 {
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+}
+
+.btnwrap {
+    width: 100%;
+    display: block;
+    text-align: right;
+    padding-right: 19px;
+}
+
+.vehicle-wrapper .card-inner {
+    width: 33.333% !important;
+
+}
+
+.card-height {
+    min-height: 124.5px;
+}
+
+.danger-msg {
+
+    color: crimson !important;
+}
+
+/* .ic-delete-btn {
+    margin-top: 32px !important;
+    margin-left: 5px;
+} */
+
+.hover-bg:hover {
+    background-color: #dfdfdfeb;
+    --bs-table-hover-bg: none;
+}
+
+.no_wrap {
+    white-space: nowrap;
+}
+
+.break_word {
+    word-break: break-all;
+}
+
+.change-rate-head:hover {
+    --bs-table-hover-bg: none !important;
+}
+
+.book-moke-card {
+    height: calc(100% - 1.5rem);
+}
+
+.backgroundView {
+    right: -145px !important;
+}
+
+.popup .overlayView.active {
+    opacity: 1;
+}
+
+.moke-text {
+    margin: 0;
+}
+
+.align-center {
+    margin: 0 auto;
+    overflow-x: unset;
+}
+
+.add_partner_wrapper {
+    align-items: center !important;
+}
+
+.send-email-btn .btn-icon {
+    display: none !important;
+}
+
+.action-td {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-partner .css-yk16xz-control {
+    border-radius: 1rem !important;
+    height: 3.5rem;
+    background-color: #f8f9fa !important;
+}
+
+.add-hold .btn-icon {
+    display: none;
+}
+
+.popup_create-reservation {
+    background: white;
+    box-shadow: 0 1.6rem 3rem rgb(0 0 0 / 10%);
+    width: 302px;
+    height: 289px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: -4px;
+    margin-top: -40px;
+}
+
+.create-reservation {
+    margin: 25px 0 0 19px;
+}
+
+.hold-due-error {
+    padding: 19px !important;
+}
+
+.picker-reservation {
+    width: 100% !important;
+
+}
+
+.picker-box {
+    float: right;
+    width: 20% !important;
+    padding: 0 19px !important;
+    min-height: 100px !important;
+}
+
+.reservation-wrapper {
+    padding: 0 19px 19px !important;
+}
+.pay-with-card {
+    position: relative;
+}
+
+.cross_icon_circle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 19px;
+    height: 19px;
+    border-radius: 50px;
+    background-color: #b9b9b9;
+}
+
+.cross_icon {
+    position: absolute;
+    top: 0.8px;
+    right: 4.5px;
+    color: white !important;
+}
+.lable_spacing {
+    margin: 0 0 5px 0 !important;
+}
+.export-revenue-btn {
+   display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    white-space: nowrap;
+    
+}
+.revenue-btn-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.export-revenue-btn:last-child {
+height: 29.44px;
+}
+.export-revenue-btn .btn-icon {
+   margin: 0 0 0 5px !important;
+}
+.revenue_header {
+    display: flex;
+    align-items: center;
+   
+}
+.search-hover:hover {
+    --bs-table-accent-bg: none !important;
+    color: var(--bs-table-hover-color) !important;
+    background-color: #c6c6c666 !important;
+}
+

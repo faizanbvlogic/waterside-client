@@ -1,0 +1,39 @@
+.alertTopContainer {
+    width: 100%;
+    z-index: 99999999;
+    position: fixed;
+    top: 15px;
+}
+
+.alert-container {
+    width: fit-content;
+    margin: auto;
+}
+
+.alert-style-Success {
+    background-color: #05050b;
+    border-radius: 25px;
+    color: rgb(214, 211, 211);
+}
+
+.alert-style-Warning {
+    background-color: rgb(241, 164, 21);
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.alert-style-Error {
+    background-color: #f35421;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+}
+.alert-style-Dark {
+    background-color: #1b1b1b;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+}
+.alert-style-Light {
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    color: rgb(3, 3, 3);
+}

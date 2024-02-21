@@ -1,0 +1,27 @@
+.containerDetailView {
+    /* background-color: red; */
+    margin: 10px 20px;
+    font-size: 12px;
+}
+
+.cardDetailView {
+    /* background-color: orange; */
+    width: 30%;
+
+    padding: 19px;
+}
+.cardDetailView p {
+    font-weight: bold;
+    color: rgb(109, 105, 114);
+    margin-bottom: 8px;
+}
+.cardDetailView strong {
+    font-weight: bold;
+    color: rgb(59, 43, 75);
+}
+.subContainerDetailView {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
